@@ -1,0 +1,67 @@
+.l_lk1, .l_lk2 {
+  height: 15px; width: 49px;
+  float:left;
+  padding-left: 20px;
+}
+
+.r_lk1, .r_lk2 {
+  height: 24px; width: 50px;
+  float: right;
+  padding-right: 20px;
+}
+
+.l_lk1, .l_lk2, .r_lk1, .r_lk2 {
+  display: inline-block;
+  font-family: Arial;
+
+}
+.glogo {
+  width: 201px;
+  margin: 5% auto 2% auto;
+  padding: 10px;
+}
+form {
+  width: 559px;
+  height: 30px;
+  margin: 2% auto 2% auto;
+}
+input {
+  width: 559px;
+  height: 30px;
+}
+ .buttoncontainer {
+   margin: 0 auto;
+   width: 25%;
+   padding: 10px 0px;
+   text-align: center;
+ }
+ .buttoncontainer button {
+   background-color: gray;
+   text-align: center;
+ }
+ .leftlinks {
+   list-style-type: none;
+   display:inline-block;
+   float: left;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   text-align: left;
+ }
+ .leftlinks li{
+   float: left;
+   padding-left: 15px;
+ }
+ .rightlinks {
+   list-style-type: none;
+   display: inline-block;
+   position: absolute;
+   float: right;
+   bottom: 0;
+   right: 0;
+   text-align: right;
+ }
+.rightlinks li{
+  float: right;
+  padding-right: 15px;
+}
